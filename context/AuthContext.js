@@ -34,14 +34,17 @@ export function AuthProvider({children}){
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, async user => {
+            setCurrentUser(user || null)
             try {
                 // Set Loading and set the user to our local context state
                 setLoading(true)
                 setCurrentUser(user)
                 if (!user){
                     console.log('No user found')
+                    setLoading(false)
                     return
                 }
+                setLoading(false)
 
                 //if user exists, fetch data from firestore database
                 const docRef = doc(db, 'users', user.uid)
@@ -56,8 +59,6 @@ export function AuthProvider({children}){
 
             } catch (err){
             console.log(err.message)
-            } finally {
-                setLoading(false)
             }
         }) //listens to authentication func changes
         return unsubscribe
