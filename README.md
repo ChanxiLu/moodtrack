@@ -36,11 +36,13 @@ MoodTrack is a **Next.js + Firebase** web app that helps users record their dail
 
 ## Credits
 
-Built by Chanxi Lu
-Guided by Smoljames 
+Built by Chanxi Lu, guided by Smoljames 
+
+---
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
 
