@@ -1,6 +1,6 @@
 ## This is a Mood Tracker project made with Next.js,TailwindCSS & FireBase, while learning with the course of Smoljames.
 
-# 🌈 MoodTrack  
+# MoodTrack  
 **Track your moods, visualize your emotional trends, and stay mindful — all in one place.**  
 
 MoodTrack is a **Next.js + Firebase** web app that helps users record their daily moods, view emotional statistics over time, and reflect on their well-being.  
