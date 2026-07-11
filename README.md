@@ -17,7 +17,7 @@ MoodTrack is a **Next.js + Firebase** web app that helps users record their dail
 - **Authentication System** – Sign up, log in, and log out using Firebase Auth.  
 - **Responsive Design** – Clean UI powered by Tailwind CSS for all devices.  
 - **Logout Functionality** – Securely end your session with one click.  
-- ⚡ **Real-Time Updates** – Mood changes instantly update your dashboard.  
+- **Real-Time Updates** – Mood changes instantly update your dashboard.  
 
 ---
 
