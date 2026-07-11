@@ -5,23 +5,23 @@
 
 MoodTrack is a **Next.js + Firebase** web app that helps users record their daily moods, view emotional statistics over time, and reflect on their well-being.  
 
-🔗 **Live Demo:** [https://chanxi-moodtrack.netlify.app/]
+ **Live Demo:** [https://chanxi-moodtrack.netlify.app/]
 
 ---
 
-## ✨ Features  
+## Features  
 
-- 📅 **Daily Mood Logging** – Select and save your current mood for each day.  
-- 📊 **Statistics Dashboard** – View your average mood, streak count, and emotional trends.  
-- ☁️ **Cloud Sync via Firebase** – Data saved securely per user in Firestore.  
-- 🔐 **Authentication System** – Sign up, log in, and log out using Firebase Auth.  
-- 🎨 **Responsive Design** – Clean UI powered by Tailwind CSS for all devices.  
-- 🚪 **Logout Functionality** – Securely end your session with one click.  
+- **Daily Mood Logging** – Select and save your current mood for each day.  
+- **Statistics Dashboard** – View your average mood, streak count, and emotional trends.  
+- **Cloud Sync via Firebase** – Data saved securely per user in Firestore.  
+- **Authentication System** – Sign up, log in, and log out using Firebase Auth.  
+- **Responsive Design** – Clean UI powered by Tailwind CSS for all devices.  
+- **Logout Functionality** – Securely end your session with one click.  
 - ⚡ **Real-Time Updates** – Mood changes instantly update your dashboard.  
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 
 | Category | Technology |
 |-----------|-------------|
